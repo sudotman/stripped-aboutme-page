@@ -1,0 +1,132 @@
+html, body, h1, h2, h3, h4, h5, h6 {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    background: #F7C1C1;
+    
+
+    
+  }
+  h1,h2,h3,h4,h5,h6{
+    
+    text-shadow: 1px 1px 0 #bcbcbc, 2px 2px 0 #9c9c9c;
+  }
+
+  p{
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+  }
+  
+  #content{
+    max-width: 1000px;
+    margin: auto;
+ 
+    background: #F7C1C1;
+  
+  }
+  html, body {
+    height: 100%;
+    }
+
+    html {
+    display: table;
+    margin: auto;
+    }
+
+    body {
+    display: table-cell;
+    vertical-align: middle;
+    }   
+    
+    #headingSat{
+    color: #FFFFFF;
+    background: #F7C1C1;
+    text-shadow: 3px 2px 0px #7A7A7A;
+    color: #FFFFFF;
+    background: #F7C1C1;
+    }
+
+table.steelBlueCols {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 4px solid #555555;
+    background-color: #555555;
+    width: 400px;
+    text-align: center;
+    border-collapse: collapse;
+  }
+  table.steelBlueCols td, table.steelBlueCols th {
+    border: 1px solid #555555;
+    padding: 5px 10px;
+  }
+  table.steelBlueCols tbody td {
+    font-size: 12px;
+    font-weight: bold;
+    color: #FFFFFF;
+  }
+  table.steelBlueCols td:nth-child(even) {
+    background: #398AA4;
+  }
+  table.steelBlueCols thead {
+    background: #398AA4;
+    border-bottom: 10px solid #398AA4;
+  }
+  table.steelBlueCols thead th {
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: left;
+    border-left: 2px solid #398AA4;
+  }
+  table.steelBlueCols thead th:first-child {
+    border-left: none;
+  }
+  
+  table.steelBlueCols tfoot td {
+    font-size: 13px;
+  }
+  table.steelBlueCols tfoot .links {
+    text-align: right;
+  }
+  table.steelBlueCols tfoot .links a{
+    display: inline-block;
+    background: #FFFFFF;
+    color: #398AA4;
+    padding: 2px 8px;
+    border-radius: 5px;
+  }
+
+  /* Style all font awesome icons */
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #55ACEE;
+  color: white;
+}
+.fa-youtube {
+  background: #ee5555;
+  color: white;
+}
